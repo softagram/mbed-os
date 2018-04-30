@@ -26,6 +26,7 @@ Bugs are:
 * Issues rose internally or externally by [ARMmbed/mbed-os](https://github.com/ARMmbed/mbed-os) users.
 * Internally (within mbed team) created issues from Continuous Integration pipeline and build servers.
 * Issues detected using automation tools such as compilers, sanitizers, static code analysis tools etc.
+* Other issues that are bugs
 
 # Gate Keeper role
 Gate Keeper is a person responsible for GitHub process workflow execution and is responsible for repository / project code base. Gate Keeper is also responsible for code (pull request) quality stamp and approves or rejects code changes in project’s code base.
