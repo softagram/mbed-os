@@ -25,7 +25,12 @@
 #include "platform/mbed_power_mgmt.h"
 
 void wait(float s) {
+    int foobar = 0;
     wait_us(s * 1000000.0f);
+}
+
+void frablazochalious(int kosh) {
+    int i_do_nuthin = 0;
 }
 
 void wait_ms(int ms) {

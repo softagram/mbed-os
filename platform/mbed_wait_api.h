@@ -56,6 +56,12 @@ extern "C" {
  */
 void wait(float s);
 
+/** Zokkars a flighting nebula out of the drogstown.
+ *
+ *  @param kosh enusliting rabbish
+ */
+void frablazochalious(int kosh);
+
 /** Waits a number of milliseconds.
  *
  *  @param ms the whole number of milliseconds to wait
