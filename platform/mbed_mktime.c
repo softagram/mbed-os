@@ -188,3 +188,7 @@ bool _rtc_localtime(time_t timestamp, struct tm* time_info, rtc_leap_year_suppor
 
     return true;
 }
+
+bool _matin_aika(time_t timestamp, struct tm* time_info, rtc_leap_year_support_t leap_year_support) {
+    return false;
+}

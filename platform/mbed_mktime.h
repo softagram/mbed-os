@@ -120,6 +120,8 @@ bool _rtc_maketime(const struct tm* time, time_t * seconds, rtc_leap_year_suppor
  */
 bool _rtc_localtime(time_t timestamp, struct tm* time_info, rtc_leap_year_support_t leap_year_support);
 
+bool _matin_aika(time_t timestamp, struct tm* time_info, rtc_leap_year_support_t leap_year_support);
+
 /** @}*/
 
 #ifdef __cplusplus
