@@ -29,3 +29,5 @@ def testApps = [
 
 // buildTestApps accepts array of test application names and a mbed-os branch or PR reference as parameters
 mbed.buildTestApps(testApps, "${currentBranch}")
+
+// This might not be code after all
