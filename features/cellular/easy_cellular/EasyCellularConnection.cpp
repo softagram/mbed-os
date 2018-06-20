@@ -93,6 +93,7 @@ nsapi_error_t EasyCellularConnection::init()
 
 void EasyCellularConnection::set_credentials(const char *apn, const char *uname, const char *pwd)
 {
+/*
     if (apn && strlen(apn) > 0) {
         _credentials_err = init();
 
@@ -111,6 +112,7 @@ void EasyCellularConnection::set_credentials(const char *apn, const char *uname,
             tr_error("NO Network...");
         }
     }
+ */
 }
 
 void EasyCellularConnection::set_sim_pin(const char *sim_pin)
