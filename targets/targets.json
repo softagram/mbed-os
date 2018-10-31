@@ -4342,5 +4342,19 @@
         "device_name": "TMPM3H6FWFG",
         "detect_code": ["7012"],
         "release_versions": ["5"]
+    },
+    "RDA5981X": {
+        "inherits": ["Target"],
+        "core": "Cortex-M4F",
+        "public": true,
+        "extra_labels": ["RDA", "UNO_91H", "FLASH_CMSIS_ALGO"],
+        "supported_toolchains": ["ARM", "GCC_ARM", "IAR"],
+        "macros": ["TWO_RAM_REGIONS"],
+        "device_has": ["PORTIN", "PORTOUT", "PORTINOUT", "INTERRUPTIN", "SERIAL", "STDIO_MESSAGES", "PWMOUT", "SPI", "LOWPOWERTIMER", "ANALOGIN", "FLASH", "RTC", "TRNG"],
+        "release_versions": ["2", "5"]
+    },
+    "UNO_91H": {
+        "inherits": ["RDA5981X"],
+        "detect_code": ["8001"]
     }
 }
